@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ingenix-web
+    runtime: static
+    buildCommand: "echo 'Sitio estático INGENIX'"
+    staticPublishPath: .
+    autoDeployTrigger: commit
